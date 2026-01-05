@@ -26,7 +26,7 @@ const Rules: React.FC = () => {
             <div className="relative z-10">
               <h2 className="text-[10px] md:text-xs font-black text-purple-500 uppercase tracking-[0.4em] md:tracking-[0.5em] mb-4 md:mb-6">Constitution</h2>
               <h1 className="text-4xl md:text-8xl font-black text-white tracking-tighter leading-none mb-6 md:mb-10 italic">
-                🌌 Mystic <br/><span className="text-transparent bg-clip-text bg-gradient-to-b from-purple-400 to-purple-800 text-5xl md:text-9xl">Haven Rules.</span>
+                Mystic <br/><span className="text-transparent bg-clip-text bg-gradient-to-b from-purple-400 to-purple-800 text-5xl md:text-9xl">Haven Rules.</span>
               </h1>
               <p className="text-base md:text-xl text-slate-400 font-medium max-w-2xl mx-auto italic px-4">
                 "A sanctuary is only as strong as the peace it protects."
@@ -77,3 +77,4 @@ const Rules: React.FC = () => {
 };
 
 export default Rules;
+
