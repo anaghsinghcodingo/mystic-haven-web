@@ -49,13 +49,13 @@ const Hero: React.FC<HeroProps> = ({ onLearnMore }) => {
         
         <div className="space-y-4 md:space-y-6 mb-10 md:mb-12">
           <ScrollReveal delay={200}>
-            <h1 className="text-xs md:text-base font-bold text-purple-400 uppercase tracking-[0.3em] md:tracking-[0.4em] mb-4">
+            <h1 className="text-4xl md:text-8xl font-black text-white tracking-tight leading-[1.15] md:leading-[1.1] selection:bg-purple-500">
               Mystic Haven
             </h1>
           </ScrollReveal>
           
           <ScrollReveal delay={400}>
-            <h2 className="text-4xl md:text-8xl font-black text-white tracking-tight leading-[1.15] md:leading-[1.1] selection:bg-purple-500">
+            <h2 className="text-xs md:text-base font-bold text-purple-400 uppercase tracking-[0.3em] md:tracking-[0.4em] mb-4">
               A calm Indian teen corner to <br className="hidden md:block" />
               <span className="italic text-transparent bg-clip-text bg-gradient-to-b from-white to-white/40">
                 chill, play & connect
